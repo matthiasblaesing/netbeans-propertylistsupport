@@ -7,7 +7,27 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>nbm</packaging>
 
-    <name>PropertyListSupport</name>
+    <name>Property List Support</name>
+
+    <description>Support for the ASCII encoded form of property list format.</description>
+
+    <developers>
+        <developer>
+            <name>Matthias Bläsing</name>
+            <id>mb</id>
+            <email>mblaesing@doppel-helix.eu</email>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <timezone>+1</timezone>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://github.com/matthiasblaesing/netbeans-propertylistsupport.git</connection>
+        <developerConnection>scm:git:git@github.com:matthiasblaesing/netbeans-propertylistsupport.git</developerConnection>
+        <url>https://github.com/matthiasblaesing/netbeans-propertylistsupport</url>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -168,6 +188,12 @@
                     <!-- to have the jar plugin pickup the nbm generated manifest -->
                     <useDefaultManifestFile>true</useDefaultManifestFile>
                 </configuration>
+            </plugin>
+            
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.1</version>
             </plugin>
         </plugins>
     </build>
