@@ -166,6 +166,10 @@
                 <artifactId>nbm-maven-plugin</artifactId>
                 <version>3.11</version>
                 <extensions>true</extensions>
+                <configuration>
+                    <licenseFile>LICENSE.TXT</licenseFile>
+                    <licenseName>CDDL1.1 / GPLv2 with Classpath Exception</licenseName>
+                </configuration>
             </plugin>
 
             <plugin>
