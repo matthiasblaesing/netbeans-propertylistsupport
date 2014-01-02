@@ -167,6 +167,7 @@
                 <version>3.11</version>
                 <extensions>true</extensions>
                 <configuration>
+                    <author>Matthias Bläsing</author>
                     <licenseFile>LICENSE.TXT</licenseFile>
                     <licenseName>CDDL1.1 / GPLv2 with Classpath Exception</licenseName>
                 </configuration>
