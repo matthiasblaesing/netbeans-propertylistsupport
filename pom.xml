@@ -3,7 +3,7 @@
 
     <groupId>eu.doppel_helix.netbeans.plist</groupId>
     <artifactId>PropertyListSupport</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <packaging>nbm</packaging>
 
     <name>Property List Support</name>
